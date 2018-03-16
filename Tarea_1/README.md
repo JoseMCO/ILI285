@@ -3,7 +3,7 @@
 #### 201273514-9
 
 Librerías utilizadas:
-    * numpy
-    * matplotlib.pyplot
-    * scipy
-    * time
+- numpy
+- matplotlib.pyplot
+- scipy
+- time
