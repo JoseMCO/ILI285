@@ -2,6 +2,7 @@ version: '2'
 services:
   anaconda:
     image: cconda
+    command: /opt/conda/bin/jupyter notebook --notebook-dir=/opt/notebooks --ip='*' --port=8888 --no-browser --allow-root
     build:
       context: .
       dockerfile: Dockerfile
@@ -9,4 +10,3 @@ services:
       - "8888:8888"
     volumes:
       - ".:/opt/notebooks"
-    command: /opt/conda/bin/jupyter notebook --notebook-dir=/opt/notebooks --ip='*' --port=8888 --no-browser
