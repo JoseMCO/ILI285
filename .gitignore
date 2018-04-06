@@ -168,3 +168,5 @@ GitHub.sublime-settings
 
 
 # End of https://www.gitignore.io/api/osx,python,sublimetext,jupyternotebook
+
+*.tar.gz
